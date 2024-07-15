@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #004225;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+}
+
+.upper-container{
+    display: flex ;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.quaid-img{
+    height: 25rem;
+    border-radius: 170px;
+    box-shadow: 1px 1px 10px white;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1{
+    font-size: 5rem;
+}
+
+.text p{
+    text-align:right;
+    font-size: 1.6rem;
+}
+
+.section1{
+    margin: 2rem;
+    text-align: justify;
+}
+
+.section1 h2{
+    font-size:  3rem;
+    margin-bottom: 1rem;
+}
+
+#biography{
+    margin-top: 2rem;
+}
+
+#section-para{
+    font-size: 1.4rem;
+}
+
+@media (min-width: 1000px) and (max-width:1300){
+    .quaid-img{
+        height: 18rem;
+    }
+
+    .text h1{
+        font-size: 2.7rem;
+    }
+
+    .section1 h2{
+        font-size:  2rem;
+        margin-bottom: 0.8rem;
+    }
+    
+}
+
+@media (max-width: 979px){
+    .quaid-img{
+        height: 16rem;
+    }
+
+    .text h1{
+        font-size: 1.8rem;
+    }
+
+    .section1 h2{
+        font-size:  1.4rem;
+        margin-bottom: 0.8rem;
+    }
+    
+}
+
+@media (min-width: 1301){
+    .text h1{
+        font-size: 4rem;
+    }
+
+    .section1 h2{
+        font-size:  3rem;
+        margin-bottom: 2rem;
+    }
+
+    #section-para{
+        font-size: 2rem;
+    }
+}
